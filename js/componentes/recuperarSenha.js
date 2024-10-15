@@ -1,5 +1,5 @@
 /* Chamar página recuperarSenha */
-fetch('../components/recuperarSenha.html')
+fetch('./html/components/recuperarSenha.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('my-i-recuperarSenhaImportacao').innerHTML = data;

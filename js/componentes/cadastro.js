@@ -1,5 +1,5 @@
 /* Chamar Página cadastro */
-fetch('../components/cadastro.html')
+fetch('./html/components/cadastro.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-i-cadastroImportacao').innerHTML = data;

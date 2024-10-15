@@ -1,5 +1,5 @@
 /* Chamar página menu */
-fetch('../components/menu.html')
+fetch('./html/components/menu.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('my-i-menuImportacao').innerHTML = data;

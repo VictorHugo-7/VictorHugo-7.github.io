@@ -1,5 +1,5 @@
 // Carregar o HTML do modal de login
-fetch('../components/login.html')
+fetch('./html/components/login.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-i-loginImportacao').innerHTML = data;
